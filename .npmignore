@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+truffle.js
+truffle-config.js
+.git
+*.log
+*.bac
+npm-debug.log
+test
+contracts
+migrations
+.*
+secret.json
+wallet.json
+

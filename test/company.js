@@ -2,15 +2,15 @@ const DevelopersRegistry = artifacts.require("DevelopersRegistry")
 const Company = artifacts.require("Company")
 
 function isException(error) {
-    let strError = error.toString();
-    return strError.includes('invalid opcode') || strError.includes('invalid JUMP') || strError.includes('revert') ;
+	const strError = error.toString()
+	return strError.includes('invalid opcode') || strError.includes('invalid JUMP') || strError.includes('revert')
 }
 
 function ensureException(error) {
-    assert(isException(error), error.toString());
+	assert(isException(error), error.toString())
 }
 
-contract("Developers Registry", (accounts) => {
+contract("Developers Registry", accounts => {
 
 	const systemOwner = accounts[0]
 	const wallet = accounts[1]
@@ -18,30 +18,24 @@ contract("Developers Registry", (accounts) => {
 		dev1: {
 			address: accounts[2],
 			skills: [
-				{
-					name: "blockchain"
-				}, 
-				{
-					name: "js"
-				}
-			]
+				{ name: "blockchain", },
+				{ name: "js", },
+			],
 		},
 		dev2: {
 			address: accounts[3],
 			skills: [
-				{
-					name: "js"
-				}
-			]
-		}
+				{ name: "js", },
+			],
+		},
 	}
 	let registry
 
 	before(async () => {
 		registry = await DevelopersRegistry.new(wallet, { from: systemOwner, })
-		await registry.improveSkill(developers.dev1.skills[0].name, { from: developers.dev1.address, value: web3.toWei(0.1, "ether") })
-		await registry.improveSkill(developers.dev1.skills[1].name, { from: developers.dev1.address, value: web3.toWei(0.03, "ether") })
-		await registry.improveSkill(developers.dev2.skills[0].name, { from: developers.dev2.address, value: web3.toWei(0.05, "ether") })
+		await registry.improveSkill(developers.dev1.skills[0].name, { from: developers.dev1.address, value: web3.toWei(0.1, "ether"), })
+		await registry.improveSkill(developers.dev1.skills[1].name, { from: developers.dev1.address, value: web3.toWei(0.03, "ether"), })
+		await registry.improveSkill(developers.dev2.skills[0].name, { from: developers.dev2.address, value: web3.toWei(0.05, "ether"), })
 	})
 
 	context("creation", () => {
@@ -49,7 +43,7 @@ contract("Developers Registry", (accounts) => {
 		it("should THROW and not be able to create a company without developers' registry", async () => {
 			try {
 				await Company.new(0x0, [], { from: systemOwner, })
-			} 
+			}
 			catch (e) {
 				ensureException(e)
 			}
@@ -64,13 +58,13 @@ contract("Developers Registry", (accounts) => {
 
 		it("should be able to create a company with developers", async () => {
 			company = await Company.new(
-				registry.address, 
+				registry.address,
 				[
-					developers.dev1.address, 
+					developers.dev1.address,
 					developers.dev2.address,
 					developers.dev2.address,
-					developers.dev1.address, 
-					developers.dev1.address, 
+					developers.dev1.address,
+					developers.dev1.address,
 				],
 				{ from: systemOwner, }
 			)
@@ -84,12 +78,12 @@ contract("Developers Registry", (accounts) => {
 	context("hiring/firing", () => {
 		let company
 		const nonCEO = accounts[8]
-		
+
 		before(async () => {
 			company = await Company.new(
-				registry.address, 
+				registry.address,
 				[
-					developers.dev1.address, 
+					developers.dev1.address,
 					developers.dev2.address,
 				],
 				{ from: systemOwner, }
@@ -144,12 +138,12 @@ contract("Developers Registry", (accounts) => {
 	context("transfer CEO rights", () => {
 		let company
 		const futureCEO = accounts[8]
-		
+
 		before(async () => {
 			company = await Company.new(
-				registry.address, 
+				registry.address,
 				[
-					developers.dev1.address, 
+					developers.dev1.address,
 					developers.dev2.address,
 				],
 				{ from: systemOwner, }

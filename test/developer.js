@@ -1,15 +1,15 @@
 const DevelopersRegistry = artifacts.require("DevelopersRegistry")
 
 function isException(error) {
-    let strError = error.toString();
-    return strError.includes('invalid opcode') || strError.includes('invalid JUMP') || strError.includes('revert') ;
+	const strError = error.toString()
+	return strError.includes('invalid opcode') || strError.includes('invalid JUMP') || strError.includes('revert')
 }
 
 function ensureException(error) {
-    assert(isException(error), error.toString());
+	assert(isException(error), error.toString())
 }
 
-contract("Developers Registry", (accounts) => {
+contract("Developers Registry", accounts => {
 
 	const systemOwner = accounts[0]
 	const wallet = accounts[1]
@@ -17,26 +17,20 @@ contract("Developers Registry", (accounts) => {
 		dev1: {
 			address: accounts[2],
 			skills: [
-				{
-					name: "blockchain"
-				}, 
-				{
-					name: "js"
-				}
-			]
+				{ name: "blockchain", },
+				{ name: "js", },
+			],
 		},
 		dev2: {
 			address: accounts[3],
 			skills: [
-				{
-					name: "js"
-				}
-			]
-		}
+				{ name: "js", },
+			],
+		},
 	}
 
 	context("creation", () => {
-		
+
 		it("should THROW and not be able to create without wallet", async () => {
 			try {
 				await DevelopersRegistry.new(0x0, { from: systemOwner, })
@@ -63,7 +57,7 @@ contract("Developers Registry", (accounts) => {
 		it("should not allow to increase skill without sending ether", async () => {
 			const developer = developers.dev1
 			try {
-				await registry.improveSkill(developer.skills[0].name, { from: developer.address, value: 0 })
+				await registry.improveSkill(developer.skills[0].name, { from: developer.address, value: 0, })
 			}
 			catch (e) {
 				ensureException(e)
@@ -74,7 +68,7 @@ contract("Developers Registry", (accounts) => {
 
 		it("should allow to increase skill with sending ether", async () => {
 			const developer = developers.dev1
-			await registry.improveSkill(developer.skills[0].name, { from: developer.address, value: dev1Skill1Value })
+			await registry.improveSkill(developer.skills[0].name, { from: developer.address, value: dev1Skill1Value, })
 
 			const [balance,] = await registry.skillDetails.call(developer.address, developer.skills[0].name)
 			assert.equal(balance.toString(), dev1Skill1Value.toString())
@@ -84,7 +78,7 @@ contract("Developers Registry", (accounts) => {
 
 		it("should allow to more increase skill with sending ether and append it", async () => {
 			const developer = developers.dev1
-			await registry.improveSkill(developer.skills[0].name, { from: developer.address, value: dev1Skill2Value })
+			await registry.improveSkill(developer.skills[0].name, { from: developer.address, value: dev1Skill2Value, })
 
 			const [balance,] = await registry.skillDetails.call(developer.address, developer.skills[0].name)
 			assert.equal(balance.toString(), dev1Skill1Value.plus(dev1Skill2Value).toString())
@@ -94,7 +88,7 @@ contract("Developers Registry", (accounts) => {
 
 		it("should allow to update another developer with some skills", async () => {
 			const developer = developers.dev2
-			await registry.improveSkill(developer.skills[0].name, { from: developer.address, value: dev2Skill1Value })
+			await registry.improveSkill(developer.skills[0].name, { from: developer.address, value: dev2Skill1Value, })
 
 			const [balance,] = await registry.skillDetails.call(developer.address, developer.skills[0].name)
 			assert.equal(balance.toString(), dev2Skill1Value.toString())
