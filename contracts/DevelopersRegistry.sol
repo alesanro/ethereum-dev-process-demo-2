@@ -1,6 +1,7 @@
 pragma solidity ^0.4.23;
 
-contract Developer {
+
+contract DevelopersRegistry {
     
     event SkillImproved(address developer, string skill, uint added);
     
@@ -27,12 +28,16 @@ contract Developer {
         emit SkillImproved(msg.sender, _skill, msg.value);
     }
     
-    function skillDetails(address _dev, string _skill) public view returns (uint _value, uint _rating) {
+    function skillDetails(address _dev, string _skill) 
+    public 
+    view 
+    returns 
+    (uint _value, uint _rating) 
+    {
         SkillDetails memory _details = skills[_dev][_skill];
         return (_details.value, _details.value / 10**16);
     }
-
-    
+  
     function () external payable {
         revert("Cannot accept ETH");
     }
