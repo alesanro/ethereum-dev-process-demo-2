@@ -1,0 +1,23 @@
+{
+  "name": "remixd-try-contracts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "truffle": "4.1.7",
+    "ganache-cli": "6.1.0",
+    "remixd": "^0.1",
+    "truffle-hdwallet-provider": "alesanro/truffle-hdwallet-provider#25f22d9c9c3bd43178b2cf297c1bb44225d476a2",
+    "babel-polyfill": "^6.26.0"
+  },
+  "author": "Alex Rudziak <aliaksandr.rudziak@instinctools.ru>",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
