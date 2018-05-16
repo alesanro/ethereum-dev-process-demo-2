@@ -91,14 +91,14 @@
     "absolutePath": "/Users/alesanro/Documents/Projects/Blockchain/remixd-try-contracts/contracts/Developer.sol",
     "exportedSymbols": {
       "Developer": [
-        144
+        242
       ]
     },
-    "id": 145,
+    "id": 243,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 18,
+        "id": 116,
         "literals": [
           "solidity",
           "^",
@@ -114,9 +114,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 144,
+        "id": 242,
         "linearizedBaseContracts": [
-          144
+          242
         ],
         "name": "Developer",
         "nodeType": "ContractDefinition",
@@ -124,20 +124,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 26,
+            "id": 124,
             "name": "SkillImproved",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 25,
+              "id": 123,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 20,
+                  "id": 118,
                   "indexed": false,
                   "name": "developer",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26,
+                  "scope": 124,
                   "src": "76:17:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -146,7 +146,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 19,
+                    "id": 117,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "76:7:1",
@@ -160,11 +160,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 22,
+                  "id": 120,
                   "indexed": false,
                   "name": "skill",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26,
+                  "scope": 124,
                   "src": "95:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -173,7 +173,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 21,
+                    "id": 119,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "95:6:1",
@@ -187,11 +187,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 24,
+                  "id": 122,
                   "indexed": false,
                   "name": "added",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26,
+                  "scope": 124,
                   "src": "109:10:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -200,7 +200,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 23,
+                    "id": 121,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "109:4:1",
@@ -219,14 +219,14 @@
           },
           {
             "canonicalName": "Developer.SkillDetails",
-            "id": 29,
+            "id": 127,
             "members": [
               {
                 "constant": false,
-                "id": 28,
+                "id": 126,
                 "name": "value",
                 "nodeType": "VariableDeclaration",
-                "scope": 29,
+                "scope": 127,
                 "src": "161:10:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -235,7 +235,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 27,
+                  "id": 125,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "161:4:1",
@@ -250,16 +250,16 @@
             ],
             "name": "SkillDetails",
             "nodeType": "StructDefinition",
-            "scope": 144,
+            "scope": 242,
             "src": "131:47:1",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 31,
+            "id": 129,
             "name": "wallet",
             "nodeType": "VariableDeclaration",
-            "scope": 144,
+            "scope": 242,
             "src": "188:14:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -268,7 +268,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 30,
+              "id": 128,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "188:7:1",
@@ -282,21 +282,21 @@
           },
           {
             "constant": false,
-            "id": 37,
+            "id": 135,
             "name": "skills",
             "nodeType": "VariableDeclaration",
-            "scope": 144,
+            "scope": 242,
             "src": "208:58:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$_$",
               "typeString": "mapping(address => mapping(string => struct Developer.SkillDetails))"
             },
             "typeName": {
-              "id": 36,
+              "id": 134,
               "keyType": {
-                "id": 32,
+                "id": 130,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "216:7:1",
@@ -308,13 +308,13 @@
               "nodeType": "Mapping",
               "src": "208:51:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$_$",
                 "typeString": "mapping(address => mapping(string => struct Developer.SkillDetails))"
               },
               "valueType": {
-                "id": 35,
+                "id": 133,
                 "keyType": {
-                  "id": 33,
+                  "id": 131,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "235:6:1",
@@ -326,18 +326,18 @@
                 "nodeType": "Mapping",
                 "src": "227:31:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$",
+                  "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$",
                   "typeString": "mapping(string => struct Developer.SkillDetails)"
                 },
                 "valueType": {
                   "contractScope": null,
-                  "id": 34,
+                  "id": 132,
                   "name": "SkillDetails",
                   "nodeType": "UserDefinedTypeName",
-                  "referencedDeclaration": 29,
+                  "referencedDeclaration": 127,
                   "src": "245:12:1",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_SkillDetails_$29_storage_ptr",
+                    "typeIdentifier": "t_struct$_SkillDetails_$127_storage_ptr",
                     "typeString": "struct Developer.SkillDetails"
                   }
                 }
@@ -348,7 +348,7 @@
           },
           {
             "body": {
-              "id": 52,
+              "id": 150,
               "nodeType": "Block",
               "src": "313:66:1",
               "statements": [
@@ -362,18 +362,18 @@
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         },
-                        "id": 45,
+                        "id": 143,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 43,
+                          "id": 141,
                           "name": "_wallet",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 39,
+                          "referencedDeclaration": 137,
                           "src": "331:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -385,7 +385,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "307830",
-                          "id": 44,
+                          "id": 142,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -414,21 +414,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 42,
+                      "id": 140,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        219,
-                        220
+                        317,
+                        318
                       ],
-                      "referencedDeclaration": 219,
+                      "referencedDeclaration": 317,
                       "src": "323:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 46,
+                    "id": 144,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -442,25 +442,25 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 47,
+                  "id": 145,
                   "nodeType": "ExpressionStatement",
                   "src": "323:23:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 50,
+                    "id": 148,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 48,
+                      "id": 146,
                       "name": "wallet",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 31,
+                      "referencedDeclaration": 129,
                       "src": "356:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -471,11 +471,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 49,
+                      "id": 147,
                       "name": "_wallet",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 39,
+                      "referencedDeclaration": 137,
                       "src": "365:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -488,14 +488,14 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 51,
+                  "id": 149,
                   "nodeType": "ExpressionStatement",
                   "src": "356:16:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 53,
+            "id": 151,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -503,15 +503,15 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 40,
+              "id": 138,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 39,
+                  "id": 137,
                   "name": "_wallet",
                   "nodeType": "VariableDeclaration",
-                  "scope": 53,
+                  "scope": 151,
                   "src": "289:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -520,7 +520,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 38,
+                    "id": 136,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "289:7:1",
@@ -537,12 +537,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 41,
+              "id": 139,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "313:0:1"
             },
-            "scope": 144,
+            "scope": 242,
             "src": "277:102:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -550,7 +550,7 @@
           },
           {
             "body": {
-              "id": 104,
+              "id": 202,
               "nodeType": "Block",
               "src": "443:350:1",
               "statements": [
@@ -564,7 +564,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 62,
+                        "id": 160,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -573,18 +573,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 59,
+                            "id": 157,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 216,
+                            "referencedDeclaration": 314,
                             "src": "461:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 60,
+                          "id": 158,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -603,7 +603,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "30",
-                          "id": 61,
+                          "id": 159,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -627,7 +627,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "53686f756c642073656e6420736f6d65206d6f6e657920666f7220696d70726f76696e6720796f757220736b696c6c",
-                        "id": 63,
+                        "id": 161,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -654,21 +654,21 @@
                           "typeString": "literal_string \"Should send some money for improving your skill\""
                         }
                       ],
-                      "id": 58,
+                      "id": 156,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        219,
-                        220
+                        317,
+                        318
                       ],
-                      "referencedDeclaration": 220,
+                      "referencedDeclaration": 318,
                       "src": "453:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 64,
+                    "id": 162,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -682,37 +682,37 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 65,
+                  "id": 163,
                   "nodeType": "ExpressionStatement",
                   "src": "453:73:1"
                 },
                 {
                   "assignments": [
-                    67
+                    165
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 67,
+                      "id": 165,
                       "name": "_details",
                       "nodeType": "VariableDeclaration",
-                      "scope": 105,
+                      "scope": 203,
                       "src": "545:28:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_SkillDetails_$29_memory_ptr",
+                        "typeIdentifier": "t_struct$_SkillDetails_$127_memory_ptr",
                         "typeString": "struct Developer.SkillDetails"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 66,
+                        "id": 164,
                         "name": "SkillDetails",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 29,
+                        "referencedDeclaration": 127,
                         "src": "545:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_SkillDetails_$29_storage_ptr",
+                          "typeIdentifier": "t_struct$_SkillDetails_$127_storage_ptr",
                           "typeString": "struct Developer.SkillDetails"
                         }
                       },
@@ -720,41 +720,41 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 74,
+                  "id": 172,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 68,
+                        "id": 166,
                         "name": "skills",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 37,
+                        "referencedDeclaration": 135,
                         "src": "576:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$_$",
                           "typeString": "mapping(address => mapping(string memory => struct Developer.SkillDetails storage ref))"
                         }
                       },
-                      "id": 71,
+                      "id": 169,
                       "indexExpression": {
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 69,
+                          "id": 167,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
+                          "referencedDeclaration": 314,
                           "src": "583:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 70,
+                        "id": 168,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -775,18 +775,18 @@
                       "nodeType": "IndexAccess",
                       "src": "576:18:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$",
+                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$",
                         "typeString": "mapping(string memory => struct Developer.SkillDetails storage ref)"
                       }
                     },
-                    "id": 73,
+                    "id": 171,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 72,
+                      "id": 170,
                       "name": "_skill",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 55,
+                      "referencedDeclaration": 153,
                       "src": "595:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_calldata_ptr",
@@ -800,7 +800,7 @@
                     "nodeType": "IndexAccess",
                     "src": "576:26:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SkillDetails_$29_storage",
+                      "typeIdentifier": "t_struct$_SkillDetails_$127_storage",
                       "typeString": "struct Developer.SkillDetails storage ref"
                     }
                   },
@@ -810,7 +810,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 87,
+                    "id": 185,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -823,34 +823,34 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 75,
+                            "id": 173,
                             "name": "skills",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 37,
+                            "referencedDeclaration": 135,
                             "src": "612:6:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$_$",
                               "typeString": "mapping(address => mapping(string memory => struct Developer.SkillDetails storage ref))"
                             }
                           },
-                          "id": 79,
+                          "id": 177,
                           "indexExpression": {
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 76,
+                              "id": 174,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 216,
+                              "referencedDeclaration": 314,
                               "src": "619:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 77,
+                            "id": 175,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -871,18 +871,18 @@
                           "nodeType": "IndexAccess",
                           "src": "612:18:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$",
+                            "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$",
                             "typeString": "mapping(string memory => struct Developer.SkillDetails storage ref)"
                           }
                         },
-                        "id": 80,
+                        "id": 178,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 78,
+                          "id": 176,
                           "name": "_skill",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 55,
+                          "referencedDeclaration": 153,
                           "src": "631:6:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_calldata_ptr",
@@ -896,18 +896,18 @@
                         "nodeType": "IndexAccess",
                         "src": "612:26:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_SkillDetails_$29_storage",
+                          "typeIdentifier": "t_struct$_SkillDetails_$127_storage",
                           "typeString": "struct Developer.SkillDetails storage ref"
                         }
                       },
-                      "id": 81,
+                      "id": 179,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "value",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 28,
+                      "referencedDeclaration": 126,
                       "src": "612:32:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -922,7 +922,7 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 86,
+                      "id": 184,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -931,25 +931,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 82,
+                          "id": 180,
                           "name": "_details",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 67,
+                          "referencedDeclaration": 165,
                           "src": "647:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_SkillDetails_$29_memory_ptr",
+                            "typeIdentifier": "t_struct$_SkillDetails_$127_memory_ptr",
                             "typeString": "struct Developer.SkillDetails memory"
                           }
                         },
-                        "id": 83,
+                        "id": 181,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "value",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 28,
+                        "referencedDeclaration": 126,
                         "src": "647:14:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -962,18 +962,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 84,
+                          "id": 182,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
+                          "referencedDeclaration": 314,
                           "src": "664:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 85,
+                        "id": 183,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -999,7 +999,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 88,
+                  "id": 186,
                   "nodeType": "ExpressionStatement",
                   "src": "612:61:1"
                 },
@@ -1011,18 +1011,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 92,
+                          "id": 190,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
+                          "referencedDeclaration": 314,
                           "src": "708:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 93,
+                        "id": 191,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1046,18 +1046,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 89,
+                        "id": 187,
                         "name": "wallet",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 31,
+                        "referencedDeclaration": 129,
                         "src": "692:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         }
                       },
-                      "id": 91,
+                      "id": 189,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1071,7 +1071,7 @@
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 94,
+                    "id": 192,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1085,7 +1085,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 95,
+                  "id": 193,
                   "nodeType": "ExpressionStatement",
                   "src": "692:26:1"
                 },
@@ -1097,18 +1097,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 97,
+                          "id": 195,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
+                          "referencedDeclaration": 314,
                           "src": "756:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 98,
+                        "id": 196,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1124,11 +1124,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 99,
+                        "id": 197,
                         "name": "_skill",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 55,
+                        "referencedDeclaration": 153,
                         "src": "768:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_calldata_ptr",
@@ -1139,18 +1139,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 100,
+                          "id": 198,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
+                          "referencedDeclaration": 314,
                           "src": "776:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 101,
+                        "id": 199,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1180,18 +1180,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 96,
+                      "id": 194,
                       "name": "SkillImproved",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 26,
+                      "referencedDeclaration": 124,
                       "src": "742:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_string_memory_ptr_$_t_uint256_$returns$__$",
                         "typeString": "function (address,string memory,uint256)"
                       }
                     },
-                    "id": 102,
+                    "id": 200,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1205,14 +1205,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 103,
+                  "id": 201,
                   "nodeType": "EmitStatement",
                   "src": "737:49:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 105,
+            "id": 203,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1220,15 +1220,15 @@
             "name": "improveSkill",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 56,
+              "id": 154,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 55,
+                  "id": 153,
                   "name": "_skill",
                   "nodeType": "VariableDeclaration",
-                  "scope": 105,
+                  "scope": 203,
                   "src": "411:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1237,7 +1237,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 54,
+                    "id": 152,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "411:6:1",
@@ -1254,12 +1254,12 @@
             },
             "payable": true,
             "returnParameters": {
-              "id": 57,
+              "id": 155,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "443:0:1"
             },
-            "scope": 144,
+            "scope": 242,
             "src": "389:404:1",
             "stateMutability": "payable",
             "superFunction": null,
@@ -1267,37 +1267,37 @@
           },
           {
             "body": {
-              "id": 134,
+              "id": 232,
               "nodeType": "Block",
               "src": "902:126:1",
               "statements": [
                 {
                   "assignments": [
-                    117
+                    215
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 117,
+                      "id": 215,
                       "name": "_details",
                       "nodeType": "VariableDeclaration",
-                      "scope": 135,
+                      "scope": 233,
                       "src": "912:28:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_SkillDetails_$29_memory_ptr",
+                        "typeIdentifier": "t_struct$_SkillDetails_$127_memory_ptr",
                         "typeString": "struct Developer.SkillDetails"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 116,
+                        "id": 214,
                         "name": "SkillDetails",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 29,
+                        "referencedDeclaration": 127,
                         "src": "912:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_SkillDetails_$29_storage_ptr",
+                          "typeIdentifier": "t_struct$_SkillDetails_$127_storage_ptr",
                           "typeString": "struct Developer.SkillDetails"
                         }
                       },
@@ -1305,32 +1305,32 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 123,
+                  "id": 221,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 118,
+                        "id": 216,
                         "name": "skills",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 37,
+                        "referencedDeclaration": 135,
                         "src": "943:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$_$",
                           "typeString": "mapping(address => mapping(string memory => struct Developer.SkillDetails storage ref))"
                         }
                       },
-                      "id": 120,
+                      "id": 218,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 119,
+                        "id": 217,
                         "name": "_dev",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 107,
+                        "referencedDeclaration": 205,
                         "src": "950:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -1344,18 +1344,18 @@
                       "nodeType": "IndexAccess",
                       "src": "943:12:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$",
+                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$",
                         "typeString": "mapping(string memory => struct Developer.SkillDetails storage ref)"
                       }
                     },
-                    "id": 122,
+                    "id": 220,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 121,
+                      "id": 219,
                       "name": "_skill",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 109,
+                      "referencedDeclaration": 207,
                       "src": "956:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -1369,7 +1369,7 @@
                     "nodeType": "IndexAccess",
                     "src": "943:20:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SkillDetails_$29_storage",
+                      "typeIdentifier": "t_struct$_SkillDetails_$127_storage",
                       "typeString": "struct Developer.SkillDetails storage ref"
                     }
                   },
@@ -1384,25 +1384,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 124,
+                          "id": 222,
                           "name": "_details",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 117,
+                          "referencedDeclaration": 215,
                           "src": "981:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_SkillDetails_$29_memory_ptr",
+                            "typeIdentifier": "t_struct$_SkillDetails_$127_memory_ptr",
                             "typeString": "struct Developer.SkillDetails memory"
                           }
                         },
-                        "id": 125,
+                        "id": 223,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "value",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 28,
+                        "referencedDeclaration": 126,
                         "src": "981:14:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1415,7 +1415,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 131,
+                        "id": 229,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1424,25 +1424,25 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 126,
+                            "id": 224,
                             "name": "_details",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 117,
+                            "referencedDeclaration": 215,
                             "src": "997:8:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_SkillDetails_$29_memory_ptr",
+                              "typeIdentifier": "t_struct$_SkillDetails_$127_memory_ptr",
                               "typeString": "struct Developer.SkillDetails memory"
                             }
                           },
-                          "id": 127,
+                          "id": 225,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "value",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 28,
+                          "referencedDeclaration": 126,
                           "src": "997:14:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -1457,7 +1457,7 @@
                             "typeIdentifier": "t_rational_10000000000000000_by_1",
                             "typeString": "int_const 10000000000000000"
                           },
-                          "id": 130,
+                          "id": 228,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1465,7 +1465,7 @@
                           "leftExpression": {
                             "argumentTypes": null,
                             "hexValue": "3130",
-                            "id": 128,
+                            "id": 226,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -1485,7 +1485,7 @@
                           "rightExpression": {
                             "argumentTypes": null,
                             "hexValue": "3136",
-                            "id": 129,
+                            "id": 227,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -1513,7 +1513,7 @@
                         }
                       }
                     ],
-                    "id": 132,
+                    "id": 230,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
@@ -1526,15 +1526,15 @@
                       "typeString": "tuple(uint256,uint256)"
                     }
                   },
-                  "functionReturnParameters": 115,
-                  "id": 133,
+                  "functionReturnParameters": 213,
+                  "id": 231,
                   "nodeType": "Return",
                   "src": "973:48:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 135,
+            "id": 233,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1542,15 +1542,15 @@
             "name": "skillDetails",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 110,
+              "id": 208,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 107,
+                  "id": 205,
                   "name": "_dev",
                   "nodeType": "VariableDeclaration",
-                  "scope": 135,
+                  "scope": 233,
                   "src": "825:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1559,7 +1559,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 106,
+                    "id": 204,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "825:7:1",
@@ -1573,10 +1573,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 109,
+                  "id": 207,
                   "name": "_skill",
                   "nodeType": "VariableDeclaration",
-                  "scope": 135,
+                  "scope": 233,
                   "src": "839:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1585,7 +1585,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 108,
+                    "id": 206,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "839:6:1",
@@ -1602,15 +1602,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 115,
+              "id": 213,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 112,
+                  "id": 210,
                   "name": "_value",
                   "nodeType": "VariableDeclaration",
-                  "scope": 135,
+                  "scope": 233,
                   "src": "875:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1619,7 +1619,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 111,
+                    "id": 209,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "875:4:1",
@@ -1633,10 +1633,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 114,
+                  "id": 212,
                   "name": "_rating",
                   "nodeType": "VariableDeclaration",
-                  "scope": 135,
+                  "scope": 233,
                   "src": "888:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1645,7 +1645,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 113,
+                    "id": 211,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "888:4:1",
@@ -1660,7 +1660,7 @@
               ],
               "src": "874:27:1"
             },
-            "scope": 144,
+            "scope": 242,
             "src": "803:225:1",
             "stateMutability": "view",
             "superFunction": null,
@@ -1668,7 +1668,7 @@
           },
           {
             "body": {
-              "id": 142,
+              "id": 240,
               "nodeType": "Block",
               "src": "1068:44:1",
               "statements": [
@@ -1679,7 +1679,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "43616e6e6f742061636365707420455448",
-                        "id": 139,
+                        "id": 237,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1702,21 +1702,21 @@
                           "typeString": "literal_string \"Cannot accept ETH\""
                         }
                       ],
-                      "id": 138,
+                      "id": 236,
                       "name": "revert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        221,
-                        222
+                        319,
+                        320
                       ],
-                      "referencedDeclaration": 222,
+                      "referencedDeclaration": 320,
                       "src": "1078:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_revert_pure$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory) pure"
                       }
                     },
-                    "id": 140,
+                    "id": 238,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1730,14 +1730,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 141,
+                  "id": 239,
                   "nodeType": "ExpressionStatement",
                   "src": "1078:27:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 143,
+            "id": 241,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1745,26 +1745,26 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 136,
+              "id": 234,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1048:2:1"
             },
             "payable": true,
             "returnParameters": {
-              "id": 137,
+              "id": 235,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1068:0:1"
             },
-            "scope": 144,
+            "scope": 242,
             "src": "1039:73:1",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 145,
+        "scope": 243,
         "src": "26:1088:1"
       }
     ],
@@ -1774,14 +1774,14 @@
     "absolutePath": "/Users/alesanro/Documents/Projects/Blockchain/remixd-try-contracts/contracts/Developer.sol",
     "exportedSymbols": {
       "Developer": [
-        144
+        242
       ]
     },
-    "id": 145,
+    "id": 243,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 18,
+        "id": 116,
         "literals": [
           "solidity",
           "^",
@@ -1797,9 +1797,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 144,
+        "id": 242,
         "linearizedBaseContracts": [
-          144
+          242
         ],
         "name": "Developer",
         "nodeType": "ContractDefinition",
@@ -1807,20 +1807,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 26,
+            "id": 124,
             "name": "SkillImproved",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 25,
+              "id": 123,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 20,
+                  "id": 118,
                   "indexed": false,
                   "name": "developer",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26,
+                  "scope": 124,
                   "src": "76:17:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1829,7 +1829,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 19,
+                    "id": 117,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "76:7:1",
@@ -1843,11 +1843,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 22,
+                  "id": 120,
                   "indexed": false,
                   "name": "skill",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26,
+                  "scope": 124,
                   "src": "95:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1856,7 +1856,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 21,
+                    "id": 119,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "95:6:1",
@@ -1870,11 +1870,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 24,
+                  "id": 122,
                   "indexed": false,
                   "name": "added",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26,
+                  "scope": 124,
                   "src": "109:10:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1883,7 +1883,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 23,
+                    "id": 121,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "109:4:1",
@@ -1902,14 +1902,14 @@
           },
           {
             "canonicalName": "Developer.SkillDetails",
-            "id": 29,
+            "id": 127,
             "members": [
               {
                 "constant": false,
-                "id": 28,
+                "id": 126,
                 "name": "value",
                 "nodeType": "VariableDeclaration",
-                "scope": 29,
+                "scope": 127,
                 "src": "161:10:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -1918,7 +1918,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 27,
+                  "id": 125,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "161:4:1",
@@ -1933,16 +1933,16 @@
             ],
             "name": "SkillDetails",
             "nodeType": "StructDefinition",
-            "scope": 144,
+            "scope": 242,
             "src": "131:47:1",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 31,
+            "id": 129,
             "name": "wallet",
             "nodeType": "VariableDeclaration",
-            "scope": 144,
+            "scope": 242,
             "src": "188:14:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1951,7 +1951,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 30,
+              "id": 128,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "188:7:1",
@@ -1965,21 +1965,21 @@
           },
           {
             "constant": false,
-            "id": 37,
+            "id": 135,
             "name": "skills",
             "nodeType": "VariableDeclaration",
-            "scope": 144,
+            "scope": 242,
             "src": "208:58:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$_$",
               "typeString": "mapping(address => mapping(string => struct Developer.SkillDetails))"
             },
             "typeName": {
-              "id": 36,
+              "id": 134,
               "keyType": {
-                "id": 32,
+                "id": 130,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "216:7:1",
@@ -1991,13 +1991,13 @@
               "nodeType": "Mapping",
               "src": "208:51:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$_$",
                 "typeString": "mapping(address => mapping(string => struct Developer.SkillDetails))"
               },
               "valueType": {
-                "id": 35,
+                "id": 133,
                 "keyType": {
-                  "id": 33,
+                  "id": 131,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "235:6:1",
@@ -2009,18 +2009,18 @@
                 "nodeType": "Mapping",
                 "src": "227:31:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$",
+                  "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$",
                   "typeString": "mapping(string => struct Developer.SkillDetails)"
                 },
                 "valueType": {
                   "contractScope": null,
-                  "id": 34,
+                  "id": 132,
                   "name": "SkillDetails",
                   "nodeType": "UserDefinedTypeName",
-                  "referencedDeclaration": 29,
+                  "referencedDeclaration": 127,
                   "src": "245:12:1",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_SkillDetails_$29_storage_ptr",
+                    "typeIdentifier": "t_struct$_SkillDetails_$127_storage_ptr",
                     "typeString": "struct Developer.SkillDetails"
                   }
                 }
@@ -2031,7 +2031,7 @@
           },
           {
             "body": {
-              "id": 52,
+              "id": 150,
               "nodeType": "Block",
               "src": "313:66:1",
               "statements": [
@@ -2045,18 +2045,18 @@
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         },
-                        "id": 45,
+                        "id": 143,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 43,
+                          "id": 141,
                           "name": "_wallet",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 39,
+                          "referencedDeclaration": 137,
                           "src": "331:7:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -2068,7 +2068,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "307830",
-                          "id": 44,
+                          "id": 142,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -2097,21 +2097,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 42,
+                      "id": 140,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        219,
-                        220
+                        317,
+                        318
                       ],
-                      "referencedDeclaration": 219,
+                      "referencedDeclaration": 317,
                       "src": "323:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 46,
+                    "id": 144,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2125,25 +2125,25 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 47,
+                  "id": 145,
                   "nodeType": "ExpressionStatement",
                   "src": "323:23:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 50,
+                    "id": 148,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 48,
+                      "id": 146,
                       "name": "wallet",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 31,
+                      "referencedDeclaration": 129,
                       "src": "356:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -2154,11 +2154,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 49,
+                      "id": 147,
                       "name": "_wallet",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 39,
+                      "referencedDeclaration": 137,
                       "src": "365:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -2171,14 +2171,14 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 51,
+                  "id": 149,
                   "nodeType": "ExpressionStatement",
                   "src": "356:16:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 53,
+            "id": 151,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -2186,15 +2186,15 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 40,
+              "id": 138,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 39,
+                  "id": 137,
                   "name": "_wallet",
                   "nodeType": "VariableDeclaration",
-                  "scope": 53,
+                  "scope": 151,
                   "src": "289:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2203,7 +2203,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 38,
+                    "id": 136,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "289:7:1",
@@ -2220,12 +2220,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 41,
+              "id": 139,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "313:0:1"
             },
-            "scope": 144,
+            "scope": 242,
             "src": "277:102:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -2233,7 +2233,7 @@
           },
           {
             "body": {
-              "id": 104,
+              "id": 202,
               "nodeType": "Block",
               "src": "443:350:1",
               "statements": [
@@ -2247,7 +2247,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 62,
+                        "id": 160,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2256,18 +2256,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 59,
+                            "id": 157,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 216,
+                            "referencedDeclaration": 314,
                             "src": "461:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 60,
+                          "id": 158,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2286,7 +2286,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "30",
-                          "id": 61,
+                          "id": 159,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -2310,7 +2310,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "53686f756c642073656e6420736f6d65206d6f6e657920666f7220696d70726f76696e6720796f757220736b696c6c",
-                        "id": 63,
+                        "id": 161,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -2337,21 +2337,21 @@
                           "typeString": "literal_string \"Should send some money for improving your skill\""
                         }
                       ],
-                      "id": 58,
+                      "id": 156,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        219,
-                        220
+                        317,
+                        318
                       ],
-                      "referencedDeclaration": 220,
+                      "referencedDeclaration": 318,
                       "src": "453:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 64,
+                    "id": 162,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2365,37 +2365,37 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 65,
+                  "id": 163,
                   "nodeType": "ExpressionStatement",
                   "src": "453:73:1"
                 },
                 {
                   "assignments": [
-                    67
+                    165
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 67,
+                      "id": 165,
                       "name": "_details",
                       "nodeType": "VariableDeclaration",
-                      "scope": 105,
+                      "scope": 203,
                       "src": "545:28:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_SkillDetails_$29_memory_ptr",
+                        "typeIdentifier": "t_struct$_SkillDetails_$127_memory_ptr",
                         "typeString": "struct Developer.SkillDetails"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 66,
+                        "id": 164,
                         "name": "SkillDetails",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 29,
+                        "referencedDeclaration": 127,
                         "src": "545:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_SkillDetails_$29_storage_ptr",
+                          "typeIdentifier": "t_struct$_SkillDetails_$127_storage_ptr",
                           "typeString": "struct Developer.SkillDetails"
                         }
                       },
@@ -2403,41 +2403,41 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 74,
+                  "id": 172,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 68,
+                        "id": 166,
                         "name": "skills",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 37,
+                        "referencedDeclaration": 135,
                         "src": "576:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$_$",
                           "typeString": "mapping(address => mapping(string memory => struct Developer.SkillDetails storage ref))"
                         }
                       },
-                      "id": 71,
+                      "id": 169,
                       "indexExpression": {
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 69,
+                          "id": 167,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
+                          "referencedDeclaration": 314,
                           "src": "583:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 70,
+                        "id": 168,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2458,18 +2458,18 @@
                       "nodeType": "IndexAccess",
                       "src": "576:18:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$",
+                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$",
                         "typeString": "mapping(string memory => struct Developer.SkillDetails storage ref)"
                       }
                     },
-                    "id": 73,
+                    "id": 171,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 72,
+                      "id": 170,
                       "name": "_skill",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 55,
+                      "referencedDeclaration": 153,
                       "src": "595:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_calldata_ptr",
@@ -2483,7 +2483,7 @@
                     "nodeType": "IndexAccess",
                     "src": "576:26:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SkillDetails_$29_storage",
+                      "typeIdentifier": "t_struct$_SkillDetails_$127_storage",
                       "typeString": "struct Developer.SkillDetails storage ref"
                     }
                   },
@@ -2493,7 +2493,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 87,
+                    "id": 185,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2506,34 +2506,34 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 75,
+                            "id": 173,
                             "name": "skills",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 37,
+                            "referencedDeclaration": 135,
                             "src": "612:6:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$_$",
                               "typeString": "mapping(address => mapping(string memory => struct Developer.SkillDetails storage ref))"
                             }
                           },
-                          "id": 79,
+                          "id": 177,
                           "indexExpression": {
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 76,
+                              "id": 174,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 216,
+                              "referencedDeclaration": 314,
                               "src": "619:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 77,
+                            "id": 175,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -2554,18 +2554,18 @@
                           "nodeType": "IndexAccess",
                           "src": "612:18:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$",
+                            "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$",
                             "typeString": "mapping(string memory => struct Developer.SkillDetails storage ref)"
                           }
                         },
-                        "id": 80,
+                        "id": 178,
                         "indexExpression": {
                           "argumentTypes": null,
-                          "id": 78,
+                          "id": 176,
                           "name": "_skill",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 55,
+                          "referencedDeclaration": 153,
                           "src": "631:6:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_calldata_ptr",
@@ -2579,18 +2579,18 @@
                         "nodeType": "IndexAccess",
                         "src": "612:26:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_SkillDetails_$29_storage",
+                          "typeIdentifier": "t_struct$_SkillDetails_$127_storage",
                           "typeString": "struct Developer.SkillDetails storage ref"
                         }
                       },
-                      "id": 81,
+                      "id": 179,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "value",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 28,
+                      "referencedDeclaration": 126,
                       "src": "612:32:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2605,7 +2605,7 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 86,
+                      "id": 184,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2614,25 +2614,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 82,
+                          "id": 180,
                           "name": "_details",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 67,
+                          "referencedDeclaration": 165,
                           "src": "647:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_SkillDetails_$29_memory_ptr",
+                            "typeIdentifier": "t_struct$_SkillDetails_$127_memory_ptr",
                             "typeString": "struct Developer.SkillDetails memory"
                           }
                         },
-                        "id": 83,
+                        "id": 181,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "value",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 28,
+                        "referencedDeclaration": 126,
                         "src": "647:14:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2645,18 +2645,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 84,
+                          "id": 182,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
+                          "referencedDeclaration": 314,
                           "src": "664:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 85,
+                        "id": 183,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2682,7 +2682,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 88,
+                  "id": 186,
                   "nodeType": "ExpressionStatement",
                   "src": "612:61:1"
                 },
@@ -2694,18 +2694,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 92,
+                          "id": 190,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
+                          "referencedDeclaration": 314,
                           "src": "708:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 93,
+                        "id": 191,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2729,18 +2729,18 @@
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 89,
+                        "id": 187,
                         "name": "wallet",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 31,
+                        "referencedDeclaration": 129,
                         "src": "692:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         }
                       },
-                      "id": 91,
+                      "id": 189,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2754,7 +2754,7 @@
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 94,
+                    "id": 192,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2768,7 +2768,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 95,
+                  "id": 193,
                   "nodeType": "ExpressionStatement",
                   "src": "692:26:1"
                 },
@@ -2780,18 +2780,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 97,
+                          "id": 195,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
+                          "referencedDeclaration": 314,
                           "src": "756:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 98,
+                        "id": 196,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2807,11 +2807,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 99,
+                        "id": 197,
                         "name": "_skill",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 55,
+                        "referencedDeclaration": 153,
                         "src": "768:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_calldata_ptr",
@@ -2822,18 +2822,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 100,
+                          "id": 198,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
+                          "referencedDeclaration": 314,
                           "src": "776:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 101,
+                        "id": 199,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2863,18 +2863,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 96,
+                      "id": 194,
                       "name": "SkillImproved",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 26,
+                      "referencedDeclaration": 124,
                       "src": "742:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_string_memory_ptr_$_t_uint256_$returns$__$",
                         "typeString": "function (address,string memory,uint256)"
                       }
                     },
-                    "id": 102,
+                    "id": 200,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2888,14 +2888,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 103,
+                  "id": 201,
                   "nodeType": "EmitStatement",
                   "src": "737:49:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 105,
+            "id": 203,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -2903,15 +2903,15 @@
             "name": "improveSkill",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 56,
+              "id": 154,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 55,
+                  "id": 153,
                   "name": "_skill",
                   "nodeType": "VariableDeclaration",
-                  "scope": 105,
+                  "scope": 203,
                   "src": "411:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2920,7 +2920,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 54,
+                    "id": 152,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "411:6:1",
@@ -2937,12 +2937,12 @@
             },
             "payable": true,
             "returnParameters": {
-              "id": 57,
+              "id": 155,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "443:0:1"
             },
-            "scope": 144,
+            "scope": 242,
             "src": "389:404:1",
             "stateMutability": "payable",
             "superFunction": null,
@@ -2950,37 +2950,37 @@
           },
           {
             "body": {
-              "id": 134,
+              "id": 232,
               "nodeType": "Block",
               "src": "902:126:1",
               "statements": [
                 {
                   "assignments": [
-                    117
+                    215
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 117,
+                      "id": 215,
                       "name": "_details",
                       "nodeType": "VariableDeclaration",
-                      "scope": 135,
+                      "scope": 233,
                       "src": "912:28:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_SkillDetails_$29_memory_ptr",
+                        "typeIdentifier": "t_struct$_SkillDetails_$127_memory_ptr",
                         "typeString": "struct Developer.SkillDetails"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 116,
+                        "id": 214,
                         "name": "SkillDetails",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 29,
+                        "referencedDeclaration": 127,
                         "src": "912:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_SkillDetails_$29_storage_ptr",
+                          "typeIdentifier": "t_struct$_SkillDetails_$127_storage_ptr",
                           "typeString": "struct Developer.SkillDetails"
                         }
                       },
@@ -2988,32 +2988,32 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 123,
+                  "id": 221,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 118,
+                        "id": 216,
                         "name": "skills",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 37,
+                        "referencedDeclaration": 135,
                         "src": "943:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$_$",
                           "typeString": "mapping(address => mapping(string memory => struct Developer.SkillDetails storage ref))"
                         }
                       },
-                      "id": 120,
+                      "id": 218,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 119,
+                        "id": 217,
                         "name": "_dev",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 107,
+                        "referencedDeclaration": 205,
                         "src": "950:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -3027,18 +3027,18 @@
                       "nodeType": "IndexAccess",
                       "src": "943:12:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$29_storage_$",
+                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_SkillDetails_$127_storage_$",
                         "typeString": "mapping(string memory => struct Developer.SkillDetails storage ref)"
                       }
                     },
-                    "id": 122,
+                    "id": 220,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 121,
+                      "id": 219,
                       "name": "_skill",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 109,
+                      "referencedDeclaration": 207,
                       "src": "956:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -3052,7 +3052,7 @@
                     "nodeType": "IndexAccess",
                     "src": "943:20:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SkillDetails_$29_storage",
+                      "typeIdentifier": "t_struct$_SkillDetails_$127_storage",
                       "typeString": "struct Developer.SkillDetails storage ref"
                     }
                   },
@@ -3067,25 +3067,25 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 124,
+                          "id": 222,
                           "name": "_details",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 117,
+                          "referencedDeclaration": 215,
                           "src": "981:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_SkillDetails_$29_memory_ptr",
+                            "typeIdentifier": "t_struct$_SkillDetails_$127_memory_ptr",
                             "typeString": "struct Developer.SkillDetails memory"
                           }
                         },
-                        "id": 125,
+                        "id": 223,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "value",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 28,
+                        "referencedDeclaration": 126,
                         "src": "981:14:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -3098,7 +3098,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 131,
+                        "id": 229,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3107,25 +3107,25 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 126,
+                            "id": 224,
                             "name": "_details",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 117,
+                            "referencedDeclaration": 215,
                             "src": "997:8:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_SkillDetails_$29_memory_ptr",
+                              "typeIdentifier": "t_struct$_SkillDetails_$127_memory_ptr",
                               "typeString": "struct Developer.SkillDetails memory"
                             }
                           },
-                          "id": 127,
+                          "id": 225,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "value",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 28,
+                          "referencedDeclaration": 126,
                           "src": "997:14:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -3140,7 +3140,7 @@
                             "typeIdentifier": "t_rational_10000000000000000_by_1",
                             "typeString": "int_const 10000000000000000"
                           },
-                          "id": 130,
+                          "id": 228,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3148,7 +3148,7 @@
                           "leftExpression": {
                             "argumentTypes": null,
                             "hexValue": "3130",
-                            "id": 128,
+                            "id": 226,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -3168,7 +3168,7 @@
                           "rightExpression": {
                             "argumentTypes": null,
                             "hexValue": "3136",
-                            "id": 129,
+                            "id": 227,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -3196,7 +3196,7 @@
                         }
                       }
                     ],
-                    "id": 132,
+                    "id": 230,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
@@ -3209,15 +3209,15 @@
                       "typeString": "tuple(uint256,uint256)"
                     }
                   },
-                  "functionReturnParameters": 115,
-                  "id": 133,
+                  "functionReturnParameters": 213,
+                  "id": 231,
                   "nodeType": "Return",
                   "src": "973:48:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 135,
+            "id": 233,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -3225,15 +3225,15 @@
             "name": "skillDetails",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 110,
+              "id": 208,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 107,
+                  "id": 205,
                   "name": "_dev",
                   "nodeType": "VariableDeclaration",
-                  "scope": 135,
+                  "scope": 233,
                   "src": "825:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3242,7 +3242,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 106,
+                    "id": 204,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "825:7:1",
@@ -3256,10 +3256,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 109,
+                  "id": 207,
                   "name": "_skill",
                   "nodeType": "VariableDeclaration",
-                  "scope": 135,
+                  "scope": 233,
                   "src": "839:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3268,7 +3268,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 108,
+                    "id": 206,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "839:6:1",
@@ -3285,15 +3285,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 115,
+              "id": 213,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 112,
+                  "id": 210,
                   "name": "_value",
                   "nodeType": "VariableDeclaration",
-                  "scope": 135,
+                  "scope": 233,
                   "src": "875:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3302,7 +3302,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 111,
+                    "id": 209,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "875:4:1",
@@ -3316,10 +3316,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 114,
+                  "id": 212,
                   "name": "_rating",
                   "nodeType": "VariableDeclaration",
-                  "scope": 135,
+                  "scope": 233,
                   "src": "888:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3328,7 +3328,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 113,
+                    "id": 211,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "888:4:1",
@@ -3343,7 +3343,7 @@
               ],
               "src": "874:27:1"
             },
-            "scope": 144,
+            "scope": 242,
             "src": "803:225:1",
             "stateMutability": "view",
             "superFunction": null,
@@ -3351,7 +3351,7 @@
           },
           {
             "body": {
-              "id": 142,
+              "id": 240,
               "nodeType": "Block",
               "src": "1068:44:1",
               "statements": [
@@ -3362,7 +3362,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "43616e6e6f742061636365707420455448",
-                        "id": 139,
+                        "id": 237,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -3385,21 +3385,21 @@
                           "typeString": "literal_string \"Cannot accept ETH\""
                         }
                       ],
-                      "id": 138,
+                      "id": 236,
                       "name": "revert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        221,
-                        222
+                        319,
+                        320
                       ],
-                      "referencedDeclaration": 222,
+                      "referencedDeclaration": 320,
                       "src": "1078:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_revert_pure$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (string memory) pure"
                       }
                     },
-                    "id": 140,
+                    "id": 238,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3413,14 +3413,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 141,
+                  "id": 239,
                   "nodeType": "ExpressionStatement",
                   "src": "1078:27:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 143,
+            "id": 241,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -3428,26 +3428,26 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 136,
+              "id": 234,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1048:2:1"
             },
             "payable": true,
             "returnParameters": {
-              "id": 137,
+              "id": 235,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1068:0:1"
             },
-            "scope": 144,
+            "scope": 242,
             "src": "1039:73:1",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 145,
+        "scope": 243,
         "src": "26:1088:1"
       }
     ],
@@ -3459,5 +3459,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-05-15T15:51:51.699Z"
+  "updatedAt": "2018-05-16T15:07:23.745Z"
 }

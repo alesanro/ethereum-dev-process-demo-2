@@ -25,9 +25,9 @@ module.exports = {
 
   networks: {
     private: {
-      // provider: HDWalletProvider.WalletProvider(getWallet(), getPassword(), "http://127.0.0.1:8540"),
-      host: "localhost",
-      port: "8540",
+      provider: new HDWalletProvider.WalletProvider(getWallet(), getPassword(), "http://127.0.0.1:8540"),
+      // host: "localhost",
+      // port: "8540",
       network_id: 74565,
       gasPrice: 0,
       gas: 4700000,

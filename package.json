@@ -13,11 +13,9 @@
     "truffle": "4.1.7",
     "ganache-cli": "6.1.0",
     "remixd": "^0.1",
-    "truffle-hdwallet-provider": "alesanro/truffle-hdwallet-provider#25f22d9c9c3bd43178b2cf297c1bb44225d476a2",
+    "truffle-hdwallet-provider": "alesanro/truffle-hdwallet-provider#8bb209ff7320b89a735b075a68bc866c935f17f9",
     "babel-polyfill": "^6.26.0"
   },
   "author": "Alex Rudziak <aliaksandr.rudziak@instinctools.ru>",
-  "license": "MIT",
-  "dependencies": {
-  }
+  "license": "MIT"
 }
