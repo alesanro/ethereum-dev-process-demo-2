@@ -3,6 +3,13 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alesanro/ethereum-dev-process-demo-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alesanro/ethereum-dev-process-demo-2/issues"
+  },
   "files": [
     "build"
   ],
