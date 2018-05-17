@@ -7,7 +7,14 @@
     "build"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:sol": "./node_modules/solium/bin/solium.js --dir contracts",
+    "lint:js": "./node_modules/eslint/bin/eslint.js . --fix",
+    "lint": "npm run lint:sol && npm run lint:js",
+    "run:rpc": "./node_modules/ganache-cli/build/cli.node.js --gasLimit 4700000",
+    "run:tests": "./node_modules/truffle/build/cli.bundled.js test --network test",
+    "build:private": "./node_modules/truffle/build/cli.bundled.js compile --network private",
+    "build": "./node_modules/truffle/build/cli.bundled.js compile --all",
+    "console:private": "./node_modules/truffle/build/cli.bundled.js console --network private"
   },
   "devDependencies": {
     "truffle": "4.1.7",
