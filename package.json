@@ -14,7 +14,8 @@
     "run:tests": "./node_modules/truffle/build/cli.bundled.js test --network test",
     "build:private": "./node_modules/truffle/build/cli.bundled.js compile --network private",
     "build": "./node_modules/truffle/build/cli.bundled.js compile --all",
-    "console:private": "./node_modules/truffle/build/cli.bundled.js console --network private"
+    "console:private": "./node_modules/truffle/build/cli.bundled.js console --network private",
+    "remixshare": "./scripts/run-remix-share.sh"
   },
   "devDependencies": {
     "truffle": "4.1.7",
